@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+     <title><%= title %></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- For iPhone 4 with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/javascripts/assets/images/icon@2x.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/javascripts/assets/images/icon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="/javascripts/assets/images/icon.png">
+    <link rel="apple-touch-startup-image" href="/javascripts/assets/images/default.png">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="/javascripts/lungo.js/lungo-1.0.0.min.css">
+    <link rel="stylesheet" href="/javascripts/lungo.js/lungo.theme.default.css">
+	<link rel="stylesheet" href="/javascripts/assets/sugars/lungo.sugar.growl.css">
+</head> 
+<body class="app">
+    <%- body %>
+    <!-- LungoJS (Production mode) -->
+    <script src="/javascripts/lungo.js/lungo-1.0.0.packed.js"></script>
+    <script src="/javascripts/assets/sugars/lungo.sugar.growl.js"></script>
+    <!-- LungoJS - Sandbox App -->    
+    <script src="/javascripts/app/app.js"></script>
+    <script src="/javascripts/app/data.js"></script>
+    <script src="/javascripts/app/events.js"></script>
+    <script src="/javascripts/app/services.js"></script>
+    <script src="/javascripts/app/view.js"></script>
+</body> 
+</html>
+
