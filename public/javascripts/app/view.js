@@ -1,5 +1,5 @@
 App.View = (function(lng, app, undefined) {
-    lng.View.Template.create('twitterfriends','<li {{id}}><strong>@{{screen_name}}</strong></li>')
+    lng.View.Template.create('twitterfriends','<li id="{{id}}"><strong>@{{screen_name}}</strong></li>')
 
 	 var todo = function(id) {
         lng.Data.Sql.select('todo', {id:id}, function(result){
