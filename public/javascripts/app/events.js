@@ -5,8 +5,8 @@ App.Events = (function(lng, app, undefined) {
 	});
 	
 	//Delegates using Element id
-	lng.Dom.Event.delegate('#twitters_list', 'li', 'SWIPE_RIGHT', function(event) {
-		alert('double tap');
+	lng.Dom.Event.delegate('#twitters_list', 'li', 'SWIPE_LEFT', function(event) {
+		alert('swipe left');
 	});
 
 	lng.Dom.Event.delegate('#twitters_list', 'li', 'SWIPE_RIGHT', function(event) {
