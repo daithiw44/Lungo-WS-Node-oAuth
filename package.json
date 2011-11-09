@@ -1,9 +1,12 @@
 {
-    "name": "application-name"
+    "name": "lungo-ws-node-oAuth"
   , "version": "0.0.1"
+  , "author": "@daithi44"
   , "private": true
   , "dependencies": {
       "express": "2.3.11"
     , "ejs": ">= 0.0.1"
+	, "oAuth": ">= 0.9.0"
   }
+  , "engine": "node >= 0.4.10"
 }
